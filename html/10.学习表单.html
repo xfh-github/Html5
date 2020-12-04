@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+</head>
+<body>
+<!--表单form
+action: 表单提交的位置，可以是网站，也可以是一个请求处理地址
+method：有两种提交方式 get和post
+        get  提交的信息显示在URL地址栏中，不安全，但是高效
+        post 比较安全，适合传输大文件
+-->
+
+<h1>注册</h1>
+
+<!--<form action="1.我的第一个网页.html" method="post">-->
+<form action="1.我的第一个网页.html" method="get">
+
+    <!--文本输入框: input type="text"-->
+
+    <p> 名字：<input type="text" name="username"> </p>
+
+    <!--密码框：input type="password"-->
+    <p> 密码：<input type="password" name="pwd"> </p>
+
+    <p>
+        <input type="submit">
+        <input type="reset">
+    </p>
+</form>
+</body>
+</html>
